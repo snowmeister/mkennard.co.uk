@@ -25,7 +25,7 @@ function Section({ children, bgColor }) {
 // Define the prop types for the Heading component
 Section.propTypes = {
   // The background color of the section
-  color: PropTypes.shape({ name: PropTypes.string, value: PropTypes.number }).isRequired,
+  bgColor: PropTypes.string.isRequired,
   // The content of the heading
   children: PropTypes.node.isRequired,
 };
