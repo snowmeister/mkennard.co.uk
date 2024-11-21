@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -38,7 +37,3 @@ dist-ssr
 # Backups
 *~
 
-=======
-node_modules/
-public/
->>>>>>> main

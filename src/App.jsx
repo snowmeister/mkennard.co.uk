@@ -1,18 +1,24 @@
 
 import './App.css';
 import Heading from './components/common/Heading';
+import Section from './components/common/Section';
 
 function App() {
 
   return (
     <>
-      <div className="h-screen w-screen bg-gray-800 flex flex-col items-center justify-center my-0 p-4">
-        <Heading size={1}>Hello</Heading>
-        <Heading size={3}>I'm Mark.</Heading>
-      </div>
-      <div className="h-screen w-screen bg-gray-900 flex flex-col items-center justify-center my-0 p-4">
-        <Heading size={3}>I'm a coder.</Heading>
-      </div>
+     <Section bgColor={'bg-gray-700'}>
+        <Heading size={1}>Hello.</Heading>
+     </Section>
+      <Section bgColor={'bg-gray-400'}>
+        <Heading size={1}>I'm Mark</Heading>
+        <Heading size={4}>AKA Snowmeister</Heading>
+      </Section>
+      <Section bgColor={'bg-gray-600'}>
+        <Heading size={1}>I'm a coder</Heading>
+        <Heading size={4}>I make things online.</Heading>
+      </Section>
+   
     </>
   )
 }
